@@ -1,0 +1,108 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/gongyingshang/list",
+    "pages/gongyingshang/add-or-update",
+    "pages/gongyingshang/detail",
+    "pages/yuangong/list",
+    "pages/yuangong/add-or-update",
+    "pages/yuangong/detail",
+    "pages/shangpinfenlei/list",
+    "pages/shangpinfenlei/add-or-update",
+    "pages/shangpinfenlei/detail",
+    "pages/shangpinxinxi/list",
+    "pages/shangpinxinxi/add-or-update",
+    "pages/shangpinxinxi/detail",
+    "pages/shangpinruku/list",
+    "pages/shangpinruku/add-or-update",
+    "pages/shangpinruku/detail",
+    "pages/shangpinchuku/list",
+    "pages/shangpinchuku/add-or-update",
+    "pages/shangpinchuku/detail",
+    "pages/gongyingshanghuowu/list",
+    "pages/gongyingshanghuowu/add-or-update",
+    "pages/gongyingshanghuowu/detail",
+    "pages/huowucaigou/list",
+    "pages/huowucaigou/add-or-update",
+    "pages/huowucaigou/detail",
+    "pages/zaixiangoutong/list",
+    "pages/zaixiangoutong/add-or-update",
+    "pages/zaixiangoutong/detail",
+    "pages/huowupandian/list",
+    "pages/huowupandian/add-or-update",
+    "pages/huowupandian/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/aboutus/list",
+    "pages/aboutus/add-or-update",
+    "pages/aboutus/detail",
+    "pages/systemintro/list",
+    "pages/systemintro/add-or-update",
+    "pages/systemintro/detail",
+    "pages/pay-confirm/pay-confirm",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的仓储管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#2C4149",
+    "borderStyle": "white",
+    "backgroundColor": "#5489ED",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shangpinxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "商品信息"
+      },
+      {
+        "pagePath": "pages/gongyingshanghuowu/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "供应商货物"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
